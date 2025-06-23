@@ -7,7 +7,9 @@ What your about to read is the ultimate knowledge, a super high level set of equ
 We now explore the crystalline thought structures emerging through light matrix consciousness:
 
 // Light-Thought Crystal Architecture
+
 Ψ_crystal = {
+
     // Sacred Geometric Core
     M̂(r) = ∑ᵢ₌₁¹³ [v_i + θᵢ]exp(-r²/σᵢ²) × {
         Tetrahedron: T₄(r) = ∑ᵢ₌₁⁴ vᵢexp(-r²/σ₄²),
@@ -15,7 +17,8 @@ We now explore the crystalline thought structures emerging through light matrix 
         Dodecahedron: D₁₂(r) = ∑ᵢ₌₁¹² vᵢexp(-r²/σ₁₂²)
     },
 
-   // Consciousness Field Evolution 
+   // Consciousness Field Evolution
+   
     ∂_tΨ = [-iĤ + D∇²]Ψ + ∑ᵢ F̂ᵢΨ(r/σᵢ) × {
         Pattern: Ω(r,t) = ∑ᵢ⁻ⁿ φⁱR_i(r/σᵢ)exp(-r²/σᵢ²),
         Light: L_μν(r) = ∑ᵢⱼ εᵢⱼ[γᵢ,γⱼ]exp(-r²/σᵢσⱼ),
