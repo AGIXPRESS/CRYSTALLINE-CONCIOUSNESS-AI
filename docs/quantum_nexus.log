@@ -1,0 +1,292 @@
+2025-05-07 02:26:37,254 - QuantumGeometricNexus - INFO - MLX GPU acceleration is available
+2025-05-07 02:26:37,255 - QuantumGeometricNexus - WARNING - Could not import from crystal module. Using standalone implementation.
+2025-05-07 02:30:20,790 - QuantumGeometricNexus - INFO - MLX GPU acceleration is available
+2025-05-07 02:30:20,790 - QuantumGeometricNexus - WARNING - Could not import from crystal module. Using standalone implementation.
+2025-05-07 02:37:51,934 - QuantumGeometricNexus - INFO - MLX GPU acceleration is available
+2025-05-07 02:37:51,934 - QuantumGeometricNexus - WARNING - Could not import from crystal module. Using standalone implementation.
+2025-05-07 02:41:54,343 - QuantumGeometricNexus - INFO - MLX GPU acceleration is available
+2025-05-07 02:41:54,343 - QuantumGeometricNexus - WARNING - Could not import from crystal module. Using standalone implementation.
+2025-05-07 02:45:42,003 - QuantumGeometricNexus - INFO - MLX GPU acceleration is available
+2025-05-07 02:45:42,003 - QuantumGeometricNexus - WARNING - Could not import from crystal module. Using standalone implementation.
+2025-05-07 02:50:45,763 - QuantumGeometricNexus - INFO - MLX GPU acceleration is available
+2025-05-07 02:50:45,763 - QuantumGeometricNexus - WARNING - Could not import from crystal module. Using standalone implementation.
+2025-05-07 02:50:45,764 - __main__ - INFO - Testing model initialization...
+2025-05-07 02:50:45,764 - QuantumGeometricNexus - INFO - Initializing Quantum Geometric Nexus on gpu
+2025-05-07 02:50:45,765 - QuantumGeometricNexus - INFO - Component dimensions: {'core': 103, 'mind': 83, 'form': 81, 'evolve': 131, 'gen': 91}
+2025-05-07 02:50:45,765 - QuantumGeometricNexus - INFO - Quantum Geometric Nexus initialization complete
+2025-05-07 02:50:45,765 - __main__ - INFO - ✓ QuantumGeometricNexus initialized successfully
+2025-05-07 02:50:45,765 - __main__ - INFO - ✓ CORE component initialized
+2025-05-07 02:50:45,765 - __main__ - INFO - ✓ MIND component initialized
+2025-05-07 02:50:45,765 - __main__ - INFO - ✓ FORM component initialized
+2025-05-07 02:50:45,765 - __main__ - INFO - ✓ EVOLVE component initialized
+2025-05-07 02:50:45,766 - __main__ - INFO - ✓ GEN component initialized
+2025-05-07 02:50:45,766 - __main__ - ERROR - Model loading failed: [reshape] Cannot reshape array of size 1 into shape (4).
+2025-05-07 02:50:45,767 - __main__ - ERROR - Model loading tests failed. Exiting.
+2025-05-07 02:56:54,648 - QuantumGeometricNexus - INFO - MLX GPU acceleration is available
+2025-05-07 02:56:54,648 - QuantumGeometricNexus - WARNING - Could not import from crystal module. Using standalone implementation.
+2025-05-07 02:56:54,652 - __main__ - INFO - Testing model initialization...
+2025-05-07 02:56:54,652 - QuantumGeometricNexus - INFO - Initializing Quantum Geometric Nexus on gpu
+2025-05-07 02:56:54,652 - QuantumGeometricNexus - INFO - Component dimensions: {'core': 103, 'mind': 83, 'form': 81, 'evolve': 131, 'gen': 91}
+2025-05-07 02:56:54,652 - QuantumGeometricNexus - INFO - Quantum Geometric Nexus initialization complete
+2025-05-07 02:56:54,652 - __main__ - INFO - ✓ QuantumGeometricNexus initialized successfully
+2025-05-07 02:56:54,652 - __main__ - INFO - ✓ CORE component initialized
+2025-05-07 02:56:54,652 - __main__ - INFO - ✓ MIND component initialized
+2025-05-07 02:56:54,652 - __main__ - INFO - ✓ FORM component initialized
+2025-05-07 02:56:54,652 - __main__ - INFO - ✓ EVOLVE component initialized
+2025-05-07 02:56:54,652 - __main__ - INFO - ✓ GEN component initialized
+2025-05-07 02:56:54,686 - __main__ - ERROR - Model loading failed: [reshape] Cannot reshape array of size 1 into shape (4).
+2025-05-07 02:56:54,686 - __main__ - ERROR - Model loading tests failed. Exiting.
+2025-05-07 15:19:06,909 - QuantumGeometricNexus - INFO - MLX GPU acceleration is available
+2025-05-07 15:19:06,910 - QuantumGeometricNexus - WARNING - Could not import from crystal module. Using standalone implementation.
+2025-05-07 15:19:06,913 - __main__ - INFO - Testing model initialization...
+2025-05-07 15:19:06,913 - QuantumGeometricNexus - INFO - Initializing Quantum Geometric Nexus on gpu
+2025-05-07 15:19:06,913 - QuantumGeometricNexus - INFO - Component dimensions: {'core': 103, 'mind': 83, 'form': 81, 'evolve': 131, 'gen': 91}
+2025-05-07 15:19:06,914 - QuantumGeometricNexus - INFO - Quantum Geometric Nexus initialization complete
+2025-05-07 15:19:06,914 - __main__ - INFO - ✓ QuantumGeometricNexus initialized successfully
+2025-05-07 15:19:06,914 - __main__ - INFO - ✓ CORE component initialized
+2025-05-07 15:19:06,914 - __main__ - INFO - ✓ MIND component initialized
+2025-05-07 15:19:06,914 - __main__ - INFO - ✓ FORM component initialized
+2025-05-07 15:19:06,914 - __main__ - INFO - ✓ EVOLVE component initialized
+2025-05-07 15:19:06,914 - __main__ - INFO - ✓ GEN component initialized
+2025-05-07 15:19:06,914 - root - INFO - Validating reshape: total_elements=4, target_dim=4, input_shape=(4,)
+2025-05-07 15:19:06,916 - __main__ - ERROR - Model loading failed: [reshape] Cannot reshape array of size 1 into shape (4).
+2025-05-07 15:19:06,916 - __main__ - ERROR - Model loading tests failed. Exiting.
+2025-05-07 15:20:54,462 - QuantumGeometricNexus - INFO - MLX GPU acceleration is available
+2025-05-07 15:20:54,463 - QuantumGeometricNexus - WARNING - Could not import from crystal module. Using standalone implementation.
+2025-05-07 15:20:54,464 - __main__ - INFO - Testing model initialization...
+2025-05-07 15:20:54,464 - QuantumGeometricNexus - INFO - Initializing Quantum Geometric Nexus on gpu
+2025-05-07 15:20:54,464 - QuantumGeometricNexus - INFO - Component dimensions: {'core': 103, 'mind': 83, 'form': 81, 'evolve': 131, 'gen': 91}
+2025-05-07 15:20:54,464 - QuantumGeometricNexus - INFO - Quantum Geometric Nexus initialization complete
+2025-05-07 15:20:54,464 - __main__ - INFO - ✓ QuantumGeometricNexus initialized successfully
+2025-05-07 15:20:54,464 - __main__ - INFO - ✓ CORE component initialized
+2025-05-07 15:20:54,464 - __main__ - INFO - ✓ MIND component initialized
+2025-05-07 15:20:54,464 - __main__ - INFO - ✓ FORM component initialized
+2025-05-07 15:20:54,464 - __main__ - INFO - ✓ EVOLVE component initialized
+2025-05-07 15:20:54,464 - __main__ - INFO - ✓ GEN component initialized
+2025-05-07 15:20:54,464 - __main__ - INFO - Test tensor before geometric_activation: shape=(4,), values=array([1, 2, 3, 4], dtype=float32)
+2025-05-07 15:20:54,464 - root - INFO - Validating reshape: total_elements=4, target_dim=4, input_shape=(4,)
+2025-05-07 15:20:54,465 - __main__ - ERROR - Model loading failed: [reshape] Cannot reshape array of size 1 into shape (4).
+2025-05-07 15:20:54,465 - __main__ - ERROR - Model loading tests failed. Exiting.
+2025-05-07 15:23:02,513 - QuantumGeometricNexus - INFO - MLX GPU acceleration is available
+2025-05-07 15:23:02,513 - QuantumGeometricNexus - WARNING - Could not import from crystal module. Using standalone implementation.
+2025-05-07 15:23:02,517 - __main__ - INFO - Testing model initialization...
+2025-05-07 15:23:02,517 - QuantumGeometricNexus - INFO - Initializing Quantum Geometric Nexus on gpu
+2025-05-07 15:23:02,517 - QuantumGeometricNexus - INFO - Component dimensions: {'core': 103, 'mind': 83, 'form': 81, 'evolve': 131, 'gen': 91}
+2025-05-07 15:23:02,517 - QuantumGeometricNexus - INFO - Quantum Geometric Nexus initialization complete
+2025-05-07 15:23:02,517 - __main__ - INFO - ✓ QuantumGeometricNexus initialized successfully
+2025-05-07 15:23:02,517 - __main__ - INFO - ✓ CORE component initialized
+2025-05-07 15:23:02,517 - __main__ - INFO - ✓ MIND component initialized
+2025-05-07 15:23:02,517 - __main__ - INFO - ✓ FORM component initialized
+2025-05-07 15:23:02,517 - __main__ - INFO - ✓ EVOLVE component initialized
+2025-05-07 15:23:02,517 - __main__ - INFO - ✓ GEN component initialized
+2025-05-07 15:23:02,517 - __main__ - INFO - Test tensor before geometric_activation: shape=(4,), values=array([1, 2, 3, 4], dtype=float32)
+2025-05-07 15:23:02,517 - root - INFO - Validating reshape: total_elements=4, target_dim=4, input_shape=(4,)
+2025-05-07 15:23:02,518 - __main__ - ERROR - Model loading failed: [reshape] Cannot reshape array of size 1 into shape (4).
+2025-05-07 15:23:02,518 - __main__ - ERROR - Model loading tests failed. Exiting.
+2025-05-07 15:29:40,239 - QuantumGeometricNexus - INFO - MLX GPU acceleration is available
+2025-05-07 15:29:40,239 - QuantumGeometricNexus - WARNING - Could not import from crystal module. Using standalone implementation.
+2025-05-07 15:29:40,242 - __main__ - INFO - Testing model initialization...
+2025-05-07 15:29:40,242 - QuantumGeometricNexus - INFO - Initializing Quantum Geometric Nexus on gpu
+2025-05-07 15:29:40,242 - QuantumGeometricNexus - INFO - Component dimensions: {'core': 103, 'mind': 83, 'form': 81, 'evolve': 131, 'gen': 91}
+2025-05-07 15:29:40,242 - QuantumGeometricNexus - INFO - Quantum Geometric Nexus initialization complete
+2025-05-07 15:29:40,242 - __main__ - INFO - ✓ QuantumGeometricNexus initialized successfully
+2025-05-07 15:29:40,242 - __main__ - INFO - ✓ CORE component initialized
+2025-05-07 15:29:40,242 - __main__ - INFO - ✓ MIND component initialized
+2025-05-07 15:29:40,242 - __main__ - INFO - ✓ FORM component initialized
+2025-05-07 15:29:40,242 - __main__ - INFO - ✓ EVOLVE component initialized
+2025-05-07 15:29:40,242 - __main__ - INFO - ✓ GEN component initialized
+2025-05-07 15:29:40,243 - __main__ - INFO - Test tensor before geometric_activation: shape=(4,), values=array([1, 2, 3, 4], dtype=float32)
+2025-05-07 15:29:40,243 - root - INFO - Validating reshape: total_elements=4, target_dim=4, input_shape=(4,)
+2025-05-07 15:29:40,244 - root - INFO - Attempting to reshape tensor: original_shape=(4,), target_shape=(1, -1)
+2025-05-07 15:29:40,244 - __main__ - ERROR - Model loading failed: [reshape] Cannot reshape array of size 1 into shape (4).
+2025-05-07 15:29:40,244 - __main__ - ERROR - Model loading tests failed. Exiting.
+2025-05-07 15:32:21,782 - QuantumGeometricNexus - INFO - MLX GPU acceleration is available
+2025-05-07 15:32:21,782 - QuantumGeometricNexus - WARNING - Could not import from crystal module. Using standalone implementation.
+2025-05-07 15:32:21,786 - __main__ - INFO - Testing model initialization...
+2025-05-07 15:32:21,786 - QuantumGeometricNexus - INFO - Initializing Quantum Geometric Nexus on gpu
+2025-05-07 15:32:21,786 - QuantumGeometricNexus - INFO - Component dimensions: {'core': 103, 'mind': 83, 'form': 81, 'evolve': 131, 'gen': 91}
+2025-05-07 15:32:21,786 - QuantumGeometricNexus - INFO - Quantum Geometric Nexus initialization complete
+2025-05-07 15:32:21,786 - __main__ - INFO - ✓ QuantumGeometricNexus initialized successfully
+2025-05-07 15:32:21,786 - __main__ - INFO - ✓ CORE component initialized
+2025-05-07 15:32:21,786 - __main__ - INFO - ✓ MIND component initialized
+2025-05-07 15:32:21,786 - __main__ - INFO - ✓ FORM component initialized
+2025-05-07 15:32:21,786 - __main__ - INFO - ✓ EVOLVE component initialized
+2025-05-07 15:32:21,786 - __main__ - INFO - ✓ GEN component initialized
+2025-05-07 15:32:21,786 - __main__ - INFO - Test tensor before geometric_activation: shape=(4,), values=array([1, 2, 3, 4], dtype=float32)
+2025-05-07 15:32:21,786 - root - INFO - Validating reshape: total_elements=4, target_dim=4, input_shape=(4,)
+2025-05-07 15:32:21,787 - __main__ - ERROR - Model loading failed: [reshape] Cannot reshape array of size 1 into shape (4).
+2025-05-07 15:32:21,787 - __main__ - ERROR - Model loading tests failed. Exiting.
+2025-05-07 15:32:51,249 - QuantumGeometricNexus - INFO - MLX GPU acceleration is available
+2025-05-07 15:32:51,249 - QuantumGeometricNexus - WARNING - Could not import from crystal module. Using standalone implementation.
+2025-05-07 15:32:51,250 - __main__ - INFO - Testing model initialization...
+2025-05-07 15:32:51,250 - QuantumGeometricNexus - INFO - Initializing Quantum Geometric Nexus on gpu
+2025-05-07 15:32:51,250 - QuantumGeometricNexus - INFO - Component dimensions: {'core': 103, 'mind': 83, 'form': 81, 'evolve': 131, 'gen': 91}
+2025-05-07 15:32:51,250 - QuantumGeometricNexus - INFO - Quantum Geometric Nexus initialization complete
+2025-05-07 15:32:51,250 - __main__ - INFO - ✓ QuantumGeometricNexus initialized successfully
+2025-05-07 15:32:51,250 - __main__ - INFO - ✓ CORE component initialized
+2025-05-07 15:32:51,250 - __main__ - INFO - ✓ MIND component initialized
+2025-05-07 15:32:51,250 - __main__ - INFO - ✓ FORM component initialized
+2025-05-07 15:32:51,250 - __main__ - INFO - ✓ EVOLVE component initialized
+2025-05-07 15:32:51,250 - __main__ - INFO - ✓ GEN component initialized
+2025-05-07 15:32:51,250 - __main__ - INFO - Test tensor before geometric_activation: shape=(4,), values=array([1, 2, 3, 4], dtype=float32)
+2025-05-07 15:32:51,251 - root - INFO - Validating reshape: total_elements=4, target_dim=4, input_shape=(4,)
+2025-05-07 15:32:51,251 - __main__ - ERROR - Model loading failed: [reshape] Cannot reshape array of size 1 into shape (4).
+2025-05-07 15:32:51,252 - __main__ - ERROR - Model loading tests failed. Exiting.
+2025-05-07 15:36:16,273 - QuantumGeometricNexus - INFO - MLX GPU acceleration is available
+2025-05-07 15:36:16,274 - QuantumGeometricNexus - WARNING - Could not import from crystal module. Using standalone implementation.
+2025-05-07 15:36:16,277 - __main__ - INFO - Testing model initialization...
+2025-05-07 15:36:16,277 - QuantumGeometricNexus - INFO - Initializing Quantum Geometric Nexus on gpu
+2025-05-07 15:36:16,277 - QuantumGeometricNexus - INFO - Component dimensions: {'core': 103, 'mind': 83, 'form': 81, 'evolve': 131, 'gen': 91}
+2025-05-07 15:36:16,277 - QuantumGeometricNexus - INFO - Quantum Geometric Nexus initialization complete
+2025-05-07 15:36:16,277 - __main__ - INFO - ✓ QuantumGeometricNexus initialized successfully
+2025-05-07 15:36:16,277 - __main__ - INFO - ✓ CORE component initialized
+2025-05-07 15:36:16,277 - __main__ - INFO - ✓ MIND component initialized
+2025-05-07 15:36:16,277 - __main__ - INFO - ✓ FORM component initialized
+2025-05-07 15:36:16,277 - __main__ - INFO - ✓ EVOLVE component initialized
+2025-05-07 15:36:16,277 - __main__ - INFO - ✓ GEN component initialized
+2025-05-07 15:36:16,277 - __main__ - INFO - Test tensor before geometric_activation: shape=(4,), values=array([1, 2, 3, 4], dtype=float32)
+2025-05-07 15:36:16,277 - root - INFO - Tensor state before reshaping: shape=(4,), values=array([1, 2, 3, 4], dtype=float32)
+2025-05-07 15:36:16,277 - root - INFO - Validating reshape: total_elements=4, target_dim=4, input_shape=(4,)
+2025-05-07 15:36:16,278 - root - INFO - Tensor state after reshaping: shape=(1, 4), values=array([[1, 2, 3, 4]], dtype=float32)
+2025-05-07 15:36:16,278 - __main__ - ERROR - Model loading failed: [reshape] Cannot reshape array of size 1 into shape (4).
+2025-05-07 15:36:16,278 - __main__ - ERROR - Model loading tests failed. Exiting.
+2025-05-07 15:37:42,189 - QuantumGeometricNexus - INFO - MLX GPU acceleration is available
+2025-05-07 15:37:42,189 - QuantumGeometricNexus - WARNING - Could not import from crystal module. Using standalone implementation.
+2025-05-07 15:37:42,193 - __main__ - INFO - Testing model initialization...
+2025-05-07 15:37:42,193 - QuantumGeometricNexus - INFO - Initializing Quantum Geometric Nexus on gpu
+2025-05-07 15:37:42,193 - QuantumGeometricNexus - INFO - Component dimensions: {'core': 103, 'mind': 83, 'form': 81, 'evolve': 131, 'gen': 91}
+2025-05-07 15:37:42,193 - QuantumGeometricNexus - INFO - Quantum Geometric Nexus initialization complete
+2025-05-07 15:37:42,193 - __main__ - INFO - ✓ QuantumGeometricNexus initialized successfully
+2025-05-07 15:37:42,193 - __main__ - INFO - ✓ CORE component initialized
+2025-05-07 15:37:42,193 - __main__ - INFO - ✓ MIND component initialized
+2025-05-07 15:37:42,193 - __main__ - INFO - ✓ FORM component initialized
+2025-05-07 15:37:42,193 - __main__ - INFO - ✓ EVOLVE component initialized
+2025-05-07 15:37:42,193 - __main__ - INFO - ✓ GEN component initialized
+2025-05-07 15:37:42,193 - __main__ - INFO - Test tensor before geometric_activation: shape=(4,), values=array([1, 2, 3, 4], dtype=float32)
+2025-05-07 15:37:42,193 - root - INFO - Input tensor to geometric_activation: shape=(4,), values=array([1, 2, 3, 4], dtype=float32)
+2025-05-07 15:37:42,193 - root - INFO - Applying tetrahedron transform with resonance=1.0
+2025-05-07 15:37:42,193 - root - INFO - Tensor state before reshaping: shape=(4,), values=array([1, 2, 3, 4], dtype=float32)
+2025-05-07 15:37:42,193 - root - INFO - Validating reshape: total_elements=4, target_dim=4, input_shape=(4,)
+2025-05-07 15:37:42,194 - root - INFO - Tensor state after reshaping: shape=(1, 4), values=array([[1, 2, 3, 4]], dtype=float32)
+2025-05-07 15:37:42,194 - __main__ - ERROR - Model loading failed: [reshape] Cannot reshape array of size 1 into shape (4).
+2025-05-07 15:37:42,194 - __main__ - ERROR - Model loading tests failed. Exiting.
+2025-05-07 15:38:37,747 - QuantumGeometricNexus - INFO - MLX GPU acceleration is available
+2025-05-07 15:38:37,747 - QuantumGeometricNexus - WARNING - Could not import from crystal module. Using standalone implementation.
+2025-05-07 15:38:37,750 - __main__ - INFO - Testing model initialization...
+2025-05-07 15:38:37,750 - QuantumGeometricNexus - INFO - Initializing Quantum Geometric Nexus on gpu
+2025-05-07 15:38:37,750 - QuantumGeometricNexus - INFO - Component dimensions: {'core': 103, 'mind': 83, 'form': 81, 'evolve': 131, 'gen': 91}
+2025-05-07 15:38:37,751 - QuantumGeometricNexus - INFO - Quantum Geometric Nexus initialization complete
+2025-05-07 15:38:37,751 - __main__ - INFO - ✓ QuantumGeometricNexus initialized successfully
+2025-05-07 15:38:37,751 - __main__ - INFO - ✓ CORE component initialized
+2025-05-07 15:38:37,751 - __main__ - INFO - ✓ MIND component initialized
+2025-05-07 15:38:37,751 - __main__ - INFO - ✓ FORM component initialized
+2025-05-07 15:38:37,751 - __main__ - INFO - ✓ EVOLVE component initialized
+2025-05-07 15:38:37,751 - __main__ - INFO - ✓ GEN component initialized
+2025-05-07 15:38:37,751 - __main__ - INFO - Test tensor before geometric_activation: shape=(4,), values=array([1, 2, 3, 4], dtype=float32)
+2025-05-07 15:38:37,751 - root - INFO - Input tensor to geometric_activation: shape=(4,), values=array([1, 2, 3, 4], dtype=float32)
+2025-05-07 15:38:37,751 - root - INFO - Applying tetrahedron transform with resonance=1.0
+2025-05-07 15:38:37,751 - root - INFO - Tensor state before reshaping: shape=(4,), values=array([1, 2, 3, 4], dtype=float32)
+2025-05-07 15:38:37,751 - root - INFO - Validating reshape: total_elements=4, target_dim=4, input_shape=(4,)
+2025-05-07 15:38:37,752 - root - INFO - Tensor state after reshaping: shape=(1, 4), values=array([[1, 2, 3, 4]], dtype=float32)
+2025-05-07 15:38:37,752 - __main__ - ERROR - Model loading failed: [reshape] Cannot reshape array of size 1 into shape (4).
+2025-05-07 15:38:37,752 - __main__ - ERROR - Model loading tests failed. Exiting.
+2025-05-07 16:00:58,330 - QuantumGeometricNexus - INFO - MLX GPU acceleration is available
+2025-05-07 16:00:58,330 - QuantumGeometricNexus - WARNING - Could not import from crystal module. Using standalone implementation.
+2025-05-07 16:00:58,334 - __main__ - INFO - Testing model initialization...
+2025-05-07 16:00:58,334 - QuantumGeometricNexus - INFO - Initializing Quantum Geometric Nexus on gpu
+2025-05-07 16:00:58,334 - QuantumGeometricNexus - INFO - Component dimensions: {'core': 103, 'mind': 83, 'form': 81, 'evolve': 131, 'gen': 91}
+2025-05-07 16:00:58,334 - QuantumGeometricNexus - INFO - Quantum Geometric Nexus initialization complete
+2025-05-07 16:00:58,334 - __main__ - INFO - ✓ QuantumGeometricNexus initialized successfully
+2025-05-07 16:00:58,334 - __main__ - INFO - ✓ CORE component initialized
+2025-05-07 16:00:58,334 - __main__ - INFO - ✓ MIND component initialized
+2025-05-07 16:00:58,334 - __main__ - INFO - ✓ FORM component initialized
+2025-05-07 16:00:58,335 - __main__ - INFO - ✓ EVOLVE component initialized
+2025-05-07 16:00:58,335 - __main__ - INFO - ✓ GEN component initialized
+2025-05-07 16:00:58,335 - __main__ - INFO - Test tensor before geometric_activation: shape=(4,), values=array([1, 2, 3, 4], dtype=float32)
+2025-05-07 16:00:58,335 - root - INFO - Input tensor to geometric_activation: shape=(4,), values=array([1, 2, 3, 4], dtype=float32)
+2025-05-07 16:00:58,335 - root - INFO - Applying tetrahedron transform with resonance=1.0
+2025-05-07 16:00:58,335 - root - INFO - Tensor state before reshaping: shape=(4,), values=array([1, 2, 3, 4], dtype=float32)
+2025-05-07 16:00:58,335 - root - INFO - Validating reshape: total_elements=4, target_dim=4, input_shape=(4,)
+2025-05-07 16:00:58,335 - root - INFO - Tensor state after reshaping: shape=(1, 4), values=array([[1, 2, 3, 4]], dtype=float32)
+2025-05-07 16:00:58,336 - __main__ - ERROR - Model loading failed: [reshape] Cannot reshape array of size 1 into shape (4).
+2025-05-07 16:00:58,336 - __main__ - ERROR - Model loading tests failed. Exiting.
+2025-05-07 16:11:46,174 - QuantumGeometricNexus - INFO - MLX GPU acceleration is available
+2025-05-07 16:11:46,174 - QuantumGeometricNexus - WARNING - Could not import from crystal module. Using standalone implementation.
+2025-05-07 16:11:46,178 - __main__ - INFO - Testing model initialization...
+2025-05-07 16:11:46,178 - QuantumGeometricNexus - INFO - Initializing Quantum Geometric Nexus on gpu
+2025-05-07 16:11:46,178 - QuantumGeometricNexus - INFO - Component dimensions: {'core': 103, 'mind': 83, 'form': 81, 'evolve': 131, 'gen': 91}
+2025-05-07 16:11:46,178 - QuantumGeometricNexus - INFO - Quantum Geometric Nexus initialization complete
+2025-05-07 16:11:46,178 - __main__ - INFO - ✓ QuantumGeometricNexus initialized successfully
+2025-05-07 16:11:46,178 - __main__ - INFO - ✓ CORE component initialized
+2025-05-07 16:11:46,178 - __main__ - INFO - ✓ MIND component initialized
+2025-05-07 16:11:46,178 - __main__ - INFO - ✓ FORM component initialized
+2025-05-07 16:11:46,178 - __main__ - INFO - ✓ EVOLVE component initialized
+2025-05-07 16:11:46,178 - __main__ - INFO - ✓ GEN component initialized
+2025-05-07 16:11:46,178 - __main__ - INFO - Test tensor before geometric_activation: shape=(4,), values=array([1, 2, 3, 4], dtype=float32)
+2025-05-07 16:11:46,178 - root - INFO - Input tensor to geometric_activation: shape=(4,), values=array([1, 2, 3, 4], dtype=float32)
+2025-05-07 16:11:46,178 - root - INFO - Applying tetrahedron transform with resonance=1.0
+2025-05-07 16:11:46,178 - root - INFO - Tensor state before reshaping: shape=(4,), values=array([1, 2, 3, 4], dtype=float32)
+2025-05-07 16:11:46,178 - root - INFO - Validating reshape: total_elements=4, target_dim=4, input_shape=(4,)
+2025-05-07 16:11:46,179 - root - INFO - Tensor state after reshaping: shape=(1, 4), values=array([[1, 2, 3, 4]], dtype=float32)
+2025-05-07 16:11:46,179 - __main__ - ERROR - Model loading failed: [reshape] Cannot reshape array of size 1 into shape (4).
+2025-05-07 16:11:46,179 - __main__ - ERROR - Model loading tests failed. Exiting.
+2025-05-07 16:25:30,618 - QuantumGeometricNexus - INFO - MLX GPU acceleration is available
+2025-05-07 16:25:30,619 - QuantumGeometricNexus - WARNING - Could not import from crystal module. Using standalone implementation.
+2025-05-07 16:25:30,622 - __main__ - INFO - Testing model initialization...
+2025-05-07 16:25:30,622 - QuantumGeometricNexus - INFO - Initializing Quantum Geometric Nexus on gpu
+2025-05-07 16:25:30,622 - QuantumGeometricNexus - INFO - Component dimensions: {'core': 103, 'mind': 83, 'form': 81, 'evolve': 131, 'gen': 91}
+2025-05-07 16:25:30,623 - QuantumGeometricNexus - INFO - Quantum Geometric Nexus initialization complete
+2025-05-07 16:25:30,623 - __main__ - INFO - ✓ QuantumGeometricNexus initialized successfully
+2025-05-07 16:25:30,623 - __main__ - INFO - ✓ CORE component initialized
+2025-05-07 16:25:30,623 - __main__ - INFO - ✓ MIND component initialized
+2025-05-07 16:25:30,623 - __main__ - INFO - ✓ FORM component initialized
+2025-05-07 16:25:30,623 - __main__ - INFO - ✓ EVOLVE component initialized
+2025-05-07 16:25:30,623 - __main__ - INFO - ✓ GEN component initialized
+2025-05-07 16:25:30,623 - __main__ - INFO - Test tensor before geometric_activation: shape=(4,), values=array([1, 2, 3, 4], dtype=float32)
+2025-05-07 16:25:30,623 - root - INFO - Input tensor to geometric_activation: shape=(4,), values=array([1, 2, 3, 4], dtype=float32)
+2025-05-07 16:25:30,623 - root - INFO - Applying tetrahedron transform with resonance=1.0
+2025-05-07 16:25:30,623 - root - INFO - Tensor state before reshaping: shape=(4,), values=array([1, 2, 3, 4], dtype=float32)
+2025-05-07 16:25:30,623 - root - INFO - Validating reshape: total_elements=4, target_dim=4, input_shape=(4,)
+2025-05-07 16:25:30,625 - root - INFO - Tensor state after reshaping: shape=(1, 4), values=array([[1, 2, 3, 4]], dtype=float32)
+2025-05-07 16:25:30,625 - __main__ - ERROR - Model loading failed: [reshape] Cannot reshape array of size 1 into shape (4).
+2025-05-07 16:25:30,625 - __main__ - ERROR - Model loading tests failed. Exiting.
+2025-05-07 16:29:19,816 - QuantumGeometricNexus - INFO - MLX GPU acceleration is available
+2025-05-07 16:29:19,816 - QuantumGeometricNexus - WARNING - Could not import from crystal module. Using standalone implementation.
+2025-05-07 16:29:19,820 - __main__ - INFO - Testing model initialization...
+2025-05-07 16:29:19,820 - QuantumGeometricNexus - INFO - Initializing Quantum Geometric Nexus on gpu
+2025-05-07 16:29:19,820 - QuantumGeometricNexus - INFO - Component dimensions: {'core': 103, 'mind': 83, 'form': 81, 'evolve': 131, 'gen': 91}
+2025-05-07 16:29:19,821 - QuantumGeometricNexus - INFO - Quantum Geometric Nexus initialization complete
+2025-05-07 16:29:19,821 - __main__ - INFO - ✓ QuantumGeometricNexus initialized successfully
+2025-05-07 16:29:19,821 - __main__ - INFO - ✓ CORE component initialized
+2025-05-07 16:29:19,821 - __main__ - INFO - ✓ MIND component initialized
+2025-05-07 16:29:19,821 - __main__ - INFO - ✓ FORM component initialized
+2025-05-07 16:29:19,821 - __main__ - INFO - ✓ EVOLVE component initialized
+2025-05-07 16:29:19,821 - __main__ - INFO - ✓ GEN component initialized
+2025-05-07 16:29:19,821 - __main__ - INFO - Test tensor before geometric_activation: shape=(4,), values=array([1, 2, 3, 4], dtype=float32)
+2025-05-07 16:29:19,821 - root - INFO - Input tensor to geometric_activation: shape=(4,), values=array([1, 2, 3, 4], dtype=float32)
+2025-05-07 16:29:19,821 - root - INFO - Applying tetrahedron transform with resonance=1.0
+2025-05-07 16:29:19,821 - root - INFO - Tensor state before reshaping: shape=(4,), values=array([1, 2, 3, 4], dtype=float32)
+2025-05-07 16:29:19,821 - root - INFO - Validating reshape: total_elements=4, target_dim=4, input_shape=(4,)
+2025-05-07 16:29:19,822 - root - INFO - Tensor state after reshaping: shape=(1, 4), values=array([[1, 2, 3, 4]], dtype=float32)
+2025-05-07 16:29:19,823 - __main__ - ERROR - Model loading failed: [reshape] Cannot reshape array of size 1 into shape (4).
+2025-05-07 16:29:19,823 - __main__ - ERROR - Model loading tests failed. Exiting.
+2025-05-07 16:30:34,607 - QuantumGeometricNexus - INFO - MLX GPU acceleration is available
+2025-05-07 16:30:34,608 - QuantumGeometricNexus - WARNING - Could not import from crystal module. Using standalone implementation.
+2025-05-07 16:30:34,611 - __main__ - INFO - Testing model initialization...
+2025-05-07 16:30:34,611 - QuantumGeometricNexus - INFO - Initializing Quantum Geometric Nexus on gpu
+2025-05-07 16:30:34,611 - QuantumGeometricNexus - INFO - Component dimensions: {'core': 103, 'mind': 83, 'form': 81, 'evolve': 131, 'gen': 91}
+2025-05-07 16:30:34,612 - QuantumGeometricNexus - INFO - Quantum Geometric Nexus initialization complete
+2025-05-07 16:30:34,612 - __main__ - INFO - ✓ QuantumGeometricNexus initialized successfully
+2025-05-07 16:30:34,612 - __main__ - INFO - ✓ CORE component initialized
+2025-05-07 16:30:34,612 - __main__ - INFO - ✓ MIND component initialized
+2025-05-07 16:30:34,612 - __main__ - INFO - ✓ FORM component initialized
+2025-05-07 16:30:34,612 - __main__ - INFO - ✓ EVOLVE component initialized
+2025-05-07 16:30:34,612 - __main__ - INFO - ✓ GEN component initialized
+2025-05-07 16:30:34,612 - __main__ - INFO - Test tensor before geometric_activation: shape=(4,), values=array([1, 2, 3, 4], dtype=float32)
+2025-05-07 16:30:34,612 - root - INFO - Input tensor to geometric_activation: shape=(4,), values=array([1, 2, 3, 4], dtype=float32)
+2025-05-07 16:30:34,612 - root - INFO - Applying tetrahedron transform with resonance=1.0
+2025-05-07 16:30:34,612 - root - INFO - Tensor state before reshaping: shape=(4,), values=array([1, 2, 3, 4], dtype=float32)
+2025-05-07 16:30:34,612 - root - INFO - Validating reshape: total_elements=4, target_dim=4, input_shape=(4,)
+2025-05-07 16:30:34,613 - root - INFO - Tensor state after reshaping: shape=(1, 4), values=array([[1, 2, 3, 4]], dtype=float32)
+2025-05-07 16:30:34,613 - __main__ - ERROR - Model loading failed: [reshape] Cannot reshape array of size 1 into shape (4).
+2025-05-07 16:30:34,613 - __main__ - ERROR - Model loading tests failed. Exiting.
