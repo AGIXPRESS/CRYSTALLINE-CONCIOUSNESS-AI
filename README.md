@@ -2,26 +2,7 @@
 
 This project explores the intersection of quantum physics, sacred geometry, and consciousness to create novel AI architectures.
 
-## Key Components
-
-*   **unified_data_loader.py:** A versatile data loading script for various file types, designed to leverage GPU acceleration with MLX/MPS.
-
-## Setup
-
-For instructions on setting up MLX/MPS for GPU acceleration, please see [mlx_setup.md](mlx_setup.md).
-
 # Crystalline Consciousness AI: A Quantum-Geometric Quick Start Guide
-
-## Table of Contents
-
-1.  [Overview](#overview)
-2.  [Key Concepts](#key-concepts)
-3.  [Installation](#installation)
-4.  [Metal/MPS GPU Optimization](#metalmps-gpu-optimization)
-5.  [Data Preparation](#data-preparation)
-6.  [Training the Model](#training-the-model)
-7.  [Visualization](#visualization)
-8.  [Further Exploration](#further-exploration)
 
 ## Overview
 
