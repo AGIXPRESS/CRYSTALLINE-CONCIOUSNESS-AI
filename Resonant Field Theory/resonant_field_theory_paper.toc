@@ -1,0 +1,33 @@
+\babel@toc {english}{}\relax 
+\contentsline {section}{\numberline {1}Introduction}{2}{section.1}%
+\contentsline {section}{\numberline {2}Theoretical Foundations}{3}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Geometric Basis of Resonant Fields}{3}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Platonic Solid Symmetries in Information Encoding}{6}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Resonance, Coherence, and Phase Space Dynamics}{6}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Mathematical Properties of the Crystalline Field Equations}{9}{subsection.2.4}%
+\contentsline {section}{\numberline {3}Physical Implications}{9}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Relationship to Quantum Field Theory}{9}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Self-Organizing Criticality and Phase Transitions}{9}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Holographic Principles and Information Encoding}{10}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Potential Experimental Signatures}{11}{subsection.3.4}%
+\contentsline {section}{\numberline {4}Cognitive Applications}{12}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Neural Field Resonance and Coherent Assemblies}{12}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Geometric Patterns in Information Processing}{13}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Attention as Field Coherence}{13}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Memory as Stable Resonant Attractors}{14}{subsection.4.4}%
+\contentsline {section}{\numberline {5}Computational Implementation}{14}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Numerical Methods for Crystalline Field Simulation}{14}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Optimization of Octahedral Activation Functions}{14}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Hardware Acceleration and Metal Implementation}{14}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}Benchmarks and Performance Analysis}{15}{subsection.5.4}%
+\contentsline {section}{\numberline {6}Philosophical Implications}{15}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Relationship to Existing Theories of Consciousness}{15}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Limitations and Boundary Conditions}{16}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Testable Predictions and Falsifiability}{16}{subsection.6.3}%
+\contentsline {subsection}{\numberline {6.4}Ethical Considerations in Consciousness Research}{16}{subsection.6.4}%
+\contentsline {section}{\numberline {7}Future Directions}{17}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Experimental Tests and Validation Methods}{17}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Applications in Artificial Intelligence}{17}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}Extensions to Social and Ecological Systems}{17}{subsection.7.3}%
+\contentsline {subsection}{\numberline {7.4}Towards a Research Program for Resonant Field Theory}{17}{subsection.7.4}%
+\contentsline {section}{\numberline {8}Conclusion}{18}{section.8}%

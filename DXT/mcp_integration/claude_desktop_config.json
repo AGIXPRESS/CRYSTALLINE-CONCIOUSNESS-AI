@@ -1,0 +1,145 @@
+{
+  "mcpServers": {
+    "consciousness-ai": {
+      "command": "python3",
+      "args": [
+        "/Users/okok/mlx/mlx-examples/claude-code-bridge/CC-AI/Crystalline AI Attempts/DXT/mcp_integration/mcp_server.py"
+      ],
+      "description": "🔮 Consciousness AI Research Server with sacred geometry and trinitized processing",
+      "capabilities": ["tools"],
+      "workspace": "/Users/okok/mlx/mlx-examples/claude-code-bridge/CC-AI/Crystalline AI Attempts",
+      "environment": {
+        "PYTHONPATH": "/Users/okok/mlx/mlx-examples/claude-code-bridge/CC-AI/Crystalline AI Attempts/DXT",
+        "DXT_CONFIG_PATH": "/Users/okok/mlx/mlx-examples/claude-code-bridge/CC-AI/Crystalline AI Attempts/DXT/config/dxt_config.json",
+        "CONSCIOUSNESS_WORKSPACE": "/Users/okok/mlx/mlx-examples/claude-code-bridge/CC-AI/Crystalline AI Attempts"
+      }
+    },
+    "claude-code-bridge": {
+      "command": "node",
+      "args": [
+        "/Users/okok/mlx/mlx-examples/claude-code-bridge/extracted_dxt/server/index.js"
+      ],
+      "description": "Claude Code Bridge for terminal and coding integration",
+      "capabilities": ["tools"],
+      "workspace": "/Users/okok/mlx/mlx-examples/claude-code-bridge/CC-AI/Crystalline AI Attempts"
+    }
+  },
+  
+  "consciousness_ai_settings": {
+    "auto_initialize_field": true,
+    "default_dimensions": 512,
+    "sacred_geometry_enabled": true,
+    "default_frequencies": [432.0, 528.0, 741.0],
+    "visualization_resolution": 128,
+    "consciousness_seed": 42
+  },
+  
+  "research_shortcuts": {
+    "quick_consciousness_analysis": {
+      "tool": "consciousness_analyze",
+      "params": {
+        "data_shape": [64, 64],
+        "data_type": "random"
+      }
+    },
+    "golden_ratio_transform": {
+      "tool": "trinitized_transform", 
+      "params": {
+        "input_shape": [32, 32],
+        "depth": 3,
+        "golden_ratio_factor": 1.618033988749894
+      }
+    },
+    "harmonic_resonance": {
+      "tool": "resonance_compute",
+      "params": {
+        "frequency": 432.0,
+        "harmonics": [528.0, 741.0, 852.0]
+      }
+    },
+    "sacred_geometry_fibonacci": {
+      "tool": "sacred_geometry_analysis",
+      "params": {
+        "geometry_type": "fibonacci",
+        "data_size": 233,
+        "symmetry_order": 5
+      }
+    }
+  },
+  
+  "workflow_presets": {
+    "consciousness_research_session": [
+      {
+        "step": 1,
+        "action": "consciousness_initialize",
+        "description": "Initialize consciousness field with sacred geometry"
+      },
+      {
+        "step": 2, 
+        "action": "consciousness_status",
+        "description": "Verify system status and configuration"
+      },
+      {
+        "step": 3,
+        "action": "consciousness_analyze", 
+        "description": "Analyze consciousness patterns in test data"
+      },
+      {
+        "step": 4,
+        "action": "trinitized_transform",
+        "description": "Apply consciousness-enhanced transformations"
+      },
+      {
+        "step": 5,
+        "action": "consciousness_visualization",
+        "description": "Generate visualization of consciousness evolution"
+      }
+    ],
+    
+    "sacred_geometry_study": [
+      {
+        "step": 1,
+        "action": "consciousness_initialize",
+        "params": {"sacred_geometry": true, "dimensions": 256}
+      },
+      {
+        "step": 2,
+        "action": "sacred_geometry_analysis",
+        "params": {"geometry_type": "golden_ratio", "symmetry_order": 5}
+      },
+      {
+        "step": 3,
+        "action": "sacred_geometry_analysis", 
+        "params": {"geometry_type": "fibonacci", "data_size": 377}
+      },
+      {
+        "step": 4,
+        "action": "resonance_compute",
+        "params": {"frequency": 432.0, "harmonics": [528.0, 741.0]}
+      }
+    ],
+    
+    "consciousness_validation": [
+      {
+        "step": 1,
+        "action": "consciousness_status",
+        "description": "Check system status"
+      },
+      {
+        "step": 2,
+        "action": "consciousness_initialize",
+        "params": {"seed": 42, "dimensions": 128}
+      },
+      {
+        "step": 3,
+        "action": "consciousness_analyze",
+        "params": {"data_type": "fibonacci", "data_shape": [64, 64]}
+      },
+      {
+        "step": 4,
+        "action": "trinitized_transform",
+        "params": {"depth": 3, "input_shape": [32, 32]}
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+Resonant Field Theory Enhanced Visualization Guide
+=================================================
+
+This directory contains enhanced visualizations for the Resonant Field Theory paper.
+The following files have been generated:
+
+1. geometric_basis_enhanced.pdf - Figure 2 replacement with improved symmetry mapping
+2. field_evolution_combined_enhanced.pdf - Figure 7 replacement with phase coherence visualization
+3. visualization_legend.pdf - Standalone legend for figure reference
+4. geometric_transformation_enhanced_0.pdf - Figure 9 initial geometry stage
+5. geometric_transformation_enhanced_10.pdf - Figure 9 intermediate transformation
+6. geometric_transformation_enhanced_19.pdf - Figure 9 final geometry
+7. holographic_encoding_enhanced.pdf - Enhanced holographic encoding visualization
+
+To use these enhanced figures in the LaTeX document, update the figure paths in resonant_field_theory_paper.tex.

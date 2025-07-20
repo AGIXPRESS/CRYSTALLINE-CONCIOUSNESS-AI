@@ -1,0 +1,466 @@
+\documentclass[12pt,letterpaper]{article}
+\usepackage{graphicx} % For including figures
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{physics}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{hyperref}
+\usepackage{geometry}
+\usepackage{xcolor}
+\usepackage{mathtools}
+\usepackage{bm}
+\usepackage{float} % For better figure placement with [H]
+\usepackage{caption} % For better caption formatting
+\usepackage{subcaption} % For subfigures
+\usepackage{microtype} % For better typography and margin justification
+
+\geometry{margin=1in}
+\definecolor{crystal}{RGB}{30, 100, 180}
+\raggedbottom
+
+% Caption setup for better line breaks
+\captionsetup{width=0.9\textwidth}
+\captionsetup[subfigure]{width=0.95\textwidth}
+
+% Configure hyperlinks
+% Configure hyperref for proper Unicode handling
+\hypersetup{
+    unicode=true,
+    pdfencoding=auto,
+    pdfdisplaydoctitle=true,
+    bookmarksnumbered=true,
+    bookmarksopen=true,
+    pdfstartview=FitH,
+    colorlinks=true,
+    linkcolor=crystal,
+    filecolor=crystal,
+    urlcolor=crystal,
+    citecolor=crystal,
+    pdftitle={Resonant Field Theory: A Geometric Approach to Physics and Consciousness},
+    pdfauthor={Crystalline Consciousness Research Group}
+}
+
+\title{\textcolor{crystal}{\Large \textbf{Resonant Field Theory: A Geometric Approach to Physics and Consciousness}}}
+\author{Crystalline Consciousness Research Group}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+This paper proposes a novel theoretical framework exploring the relationship between geometric resonance patterns and both physical and cognitive processes. Drawing on principles from quantum field theory, crystallography, and information theory, we develop a mathematical model called Resonant Field Theory (RFT). This framework suggests that both physical systems and consciousness may share underlying geometric and resonant properties that can be described using similar mathematical formalisms. We present preliminary mathematical models and discuss potential experimental implications without claiming to have solved the hard problem of consciousness or unified physics. Rather, we offer a conceptual framework that may provide new insights into both domains through the lens of resonance, geometric symmetry, and field dynamics.
+\end{abstract}
+
+\section{Introduction}
+
+The search for mathematical formalisms that can describe both physical phenomena and cognitive processes has a long history in theoretical physics and consciousness studies. From Wheeler's "it from bit" \cite{wheeler1990information} to Penrose and Hameroff's Orchestrated Objective Reduction theory \cite{hameroff2014consciousness}, researchers have explored connections between quantum physics and consciousness. While many of these approaches remain speculative, they highlight the potential value of examining structural similarities between physical and cognitive systems.
+
+This paper introduces Resonant Field Theory (RFT), a mathematical framework that explores how geometric patterns, resonance phenomena, and field dynamics might provide insight into both domains. RFT does not claim to solve the "hard problem" of consciousness \cite{chalmers1995facing} or to provide a complete theory of physics. Rather, it offers a formal language for describing certain patterns that appear across scales and systems, from quantum fields to cognitive processes.
+
+The motivation for RFT stems from several observations:
+
+\begin{enumerate}
+    \item Both quantum systems and neural systems exhibit wave-like behavior and interference patterns
+    \item Geometric symmetries appear to play fundamental roles in both physical laws and information processing
+    \item Phase coherence and resonance phenomena are important in both quantum physics and neuroscience
+    \item Information appears to be organized holographically in certain physical systems and potentially in cognitive systems
+\end{enumerate}
+
+The core mathematical structure of RFT centers around what we term the "crystalline resonance function," denoted as $\Psi_{crystal}$, which describes how information patterns propagate and interfere within a geometric framework:
+
+\begin{equation}
+\Psi_{crystal}(\mathbf{r}) = \sum_{i=1}^{n} [v_i + \theta_i] \, \exp(-\mathbf{r}^2/\sigma_i^2) \times \{T_4(\mathbf{r}), \, C_8(\mathbf{r}), \, D_{12}(\mathbf{r})\}
+\end{equation}
+
+Where:
+\begin{itemize}
+    \item $\mathbf{r}$ represents a position vector in the resonance field
+    \item $v_i$ and $\theta_i$ represent value and phase components, respectively
+    \item $\sigma_i$ determines the characteristic scale of each component
+    \item $T_4$, $C_8$, and $D_{12}$ represent tetrahedral, cubic, and dodecahedral geometric basis functions
+\end{itemize}
+
+The evolution of this field over time follows:
+
+\begin{equation}
+\frac{\partial \Psi}{\partial t} = [-i\hat{H} + D\nabla^2]\Psi + \sum_i \hat{F}_i \, \Psi(\mathbf{r}/\sigma_i)
+\end{equation}
+
+This combines features of both quantum wave equations (the Hamiltonian term $\hat{H}$) and classical diffusion ($D\nabla^2$), with additional terms representing non-linear field interactions ($\hat{F}_i$).
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.85\textwidth]{figures/resonant_field_theory_main.pdf}
+    \caption{Overview of Resonant Field Theory showing the relationship between geometric basis functions, field evolution, and emergent phenomena. This visualization demonstrates how the crystalline resonance function $\Psi_{crystal}$ manifests across both physical and cognitive domains through geometric resonance patterns.}
+    \label{fig:overview}
+\end{figure}
+
+The visualizations presented in this paper (see Figure~\ref{fig:overview} for an overview) demonstrate how these mathematical concepts manifest in physical and cognitive systems, providing evidence for the structural parallels we propose between these domains.
+
+\section{Paper Outline}
+
+\subsection{I. Theoretical Foundations}
+\begin{itemize}
+    \item A. Geometric Basis of Resonant Fields
+    \item B. Platonic Solid Symmetries in Information Encoding
+    \item C. Resonance, Coherence, and Phase Space Dynamics
+    \item D. Mathematical Properties of the Crystalline Field Equations
+\end{itemize}
+
+\section{I. Theoretical Foundations}
+
+\vspace{2mm}
+\subsection{A. Geometric Basis of Resonant Fields}
+
+The foundational aspect of Resonant Field Theory is its explicit geometric basis. Unlike traditional field theories that operate on abstract mathematical spaces, RFT employs specific geometric structures derived from Platonic solids as its fundamental building blocks. These geometric bases provide natural symmetries that appear in both physical and cognitive systems.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{figures/geometric_basis.png}
+    \caption{Visualization of the geometric basis functions used in RFT. The figure shows how tetrahedral ($T_4$), cubic ($C_8$), and dodecahedral ($D_{12}$) symmetries form the foundation of the crystalline field equations. Note the preserved symmetry properties that enable resonant information encoding across different scales and dimensional projections.}
+    \label{fig:geometric_basis}
+\end{figure}
+
+As shown in Figure~\ref{fig:geometric_basis}, the geometric basis functions exhibit distinct symmetry properties that form the mathematical foundation of our resonance model. Each Platonic solid contributes unique geometric properties to the overall field:
+
+\begin{itemize}
+    \item The tetrahedron ($T_4$) provides the fundamental 3-simplex structure with minimal vertices
+    \item The cube ($C_8$) contributes orthogonal symmetries ideal for encoding Cartesian relationships
+    \item The dodecahedron ($D_{12}$) introduces golden-ratio harmonics through its pentagonal faces
+\end{itemize}
+
+\vspace{2mm}
+\subsection{B. Platonic Solid Symmetries in Information Encoding}
+
+The Platonic solid symmetries provide an elegant framework for encoding information in a manner that preserves key geometric relationships. These symmetries are not merely mathematical conveniences but appear to have deep connections to both physical systems and neural information processing.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{figures/platonic_frequencies.png}
+    \caption{Frequency analysis of geometric resonance patterns showing distinct spectral signatures aligned with Platonic solid symmetries. The peaks correspond to characteristic frequencies of tetrahedral, cubic, and dodecahedral components in the field equations. Note the phi-harmonic relationships between frequency components, suggesting a fundamental connection to natural resonance phenomena.}
+    \label{fig:frequencies}
+\end{figure}
+
+Figure~\ref{fig:frequencies} presents a frequency analysis of the resonance patterns generated by our model, showing clear alignment with the symmetries of Platonic solids. The spectral peaks demonstrate how geometric information is encoded in the frequency domain, preserving symmetry relationships across transformations. This property enables robust information encoding that remains stable under various distortions.
+
+\vspace{2mm}
+\subsection{C. Resonance, Coherence, and Phase Space Dynamics}
+
+The dynamic behaviors of resonant fields reveal complex phase-space trajectories that exhibit attractor dynamics, critical transitions, and coherence phenomena. These behaviors emerge from the interaction terms in the field evolution equation and demonstrate how geometric constraints guide the self-organization of the system.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{figures/phase_space_trajectories.png}
+    \caption{Phase space trajectories of the resonant field showing attractor dynamics and critical transitions. The visualization reveals how geometric constraints guide the evolution of the system, creating stable attractor patterns that correspond to information-processing states. The trajectories demonstrate both ordered and chaotic regions, with critical transitions occurring at specific parameter values.}
+    \label{fig:phase_space}
+\end{figure}
+
+As demonstrated in Figure~\ref{fig:phase_space}, the phase space dynamics of the system reveal the emergence of stable attractors and critical transitions. These patterns suggest that the resonant field naturally evolves toward states that maximize information processing capacity while maintaining structural stability.
+
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}[b]{0.32\textwidth}
+        \includegraphics[width=\textwidth]{figures/field_evolution_0.pdf}
+        \caption{Initial state}
+        \label{fig:field_evolution_a}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.32\textwidth}
+        \includegraphics[width=\textwidth]{figures/field_evolution_8.pdf}
+        \caption{Complex Mid-Evolution Phase}
+        \label{fig:field_evolution_b}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.32\textwidth}
+        \includegraphics[width=\textwidth]{figures/field_evolution_17.pdf}
+        \caption{Stabilized state}
+        \label{fig:field_evolution_c}
+    \end{subfigure}
+    \caption{Time evolution of the crystalline resonance field showing dynamic behavior described by equation (2). The sequence demonstrates how the field combines quantum-like wave propagation with geometric symmetry preservation, creating coherent patterns that propagate and interact while maintaining their structural integrity. Three key stages of evolution are shown: (a) initial field formation, (b) complex interaction phase with maximum information density, and (c) stabilized resonance state.}
+    \label{fig:field_evolution}
+\end{figure}
+
+The time evolution of the resonant field, visualized in Figure~\ref{fig:field_evolution}, shows how wave-like patterns propagate and interact while preserving geometric symmetries. This combination of wave dynamics with geometric constraints produces behavior that resembles both quantum field evolution and neural synchronization patterns. This approach aligns with Bohm's concept of implicate order \cite{bohm1980wholeness}, where patterns unfold from deeper geometric structures while maintaining holistic properties.
+
+\vspace{2mm}
+\subsection{D. Mathematical Properties of the Crystalline Field Equations}
+
+The crystalline field equations possess several notable mathematical properties that distinguish them from both classical field theories and traditional neural network models:
+
+\subsection{II. Physical Implications}
+\begin{itemize}
+    \item A. Relationship to Quantum Field Theory
+    \item B. Self-Organizing Criticality and Phase Transitions
+    \item C. Holographic Principles and Information Encoding
+    \item D. Potential Experimental Signatures
+\end{itemize}
+
+\section{II. Physical Implications}
+
+\vspace{2mm}
+\subsection{A. Relationship to Quantum Field Theory}
+
+The resonant field equations share several structural similarities with quantum field theories, while introducing geometric constraints not typically present in standard QFT. The Hamiltonian term in our evolution equation resembles the quantum evolution operator, suggesting possible connections to quantum phenomena.
+
+\vspace{2mm}
+\subsection{B. Self-Organizing Criticality and Phase Transitions}
+
+Resonant fields naturally evolve toward critical states that balance order and chaos, maximizing information processing capacity. This behavior resembles self-organizing criticality observed in various physical systems, from sand piles to neural networks.
+
+\vspace{2mm}
+\subsection{C. Holographic Principles and Information Encoding}
+
+One of the most striking properties of resonant fields is their holographic nature, where information about the whole system is encoded throughout its structure, resembling the holographic principle proposed in theoretical physics.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{figures/holographic_encoding.png}
+    \caption{Holographic encoding patterns in the resonance field demonstrating how information is distributed across multiple scales while maintaining geometric coherence. The visualization shows nested interference patterns where local regions contain information about the global structure, a hallmark of holographic encoding. Note the self-similar structures appearing at different scales, consistent with the mathematical formulation of the crystalline field equations.}
+    \label{fig:holographic}
+\end{figure}
+
+Figure~\ref{fig:holographic} demonstrates the holographic properties of the resonant field, showing how information is distributed across the system while maintaining coherent geometric relationships. This visual evidence supports our mathematical formulation, which predicts that local regions of the field contain information about global structures through interference patterns and geometric resonance. These patterns bear striking similarities to Pribram's holographic brain theory \cite{pribram1991brain}, which proposes that memory and perception operate through similar distributed encoding principles.
+
+\vspace{2mm}
+\subsection{D. Potential Experimental Signatures}
+
+The physical implications of RFT lead to several potentially testable predictions in experimental systems:
+
+\subsection{III. Cognitive Applications}
+\begin{itemize}
+    \item A. Neural Field Resonance and Coherent Assemblies
+    \item B. Geometric Patterns in Information Processing
+    \item C. Attention as Field Coherence
+    \item D. Memory as Stable Resonant Attractors
+\end{itemize}
+
+\section{III. Cognitive Applications}
+
+\vspace{2mm}
+\subsection{A. Neural Field Resonance and Coherent Assemblies}
+
+When applied to neural systems, RFT suggests that coherent neural assemblies may form through resonance mechanisms that follow similar mathematical principles as the crystalline field equations.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{figures/neural_coherence.png}
+    \caption{Neural field coherence patterns showing emergent geometric structures in phase-space. The visualization demonstrates how the RFT framework captures neural assembly dynamics through resonant field interactions. Note the formation of distinct coherent regions (bright areas) that correspond to synchronized neural assemblies, and the geometric patterns that emerge from their interactions, suggesting a structured information processing architecture.}
+    \label{fig:neural}
+\end{figure}
+
+Figure~\ref{fig:neural} shows how neural coherence patterns can be modeled using the resonant field framework. The visualization reveals emergent geometric structures that resemble observed patterns in neural recordings, suggesting that the brain may utilize geometric organizing principles similar to those described by our mathematical model.
+
+\vspace{2mm}
+\subsection{B. Geometric Patterns in Information Processing}
+
+RFT proposes that information processing in neural systems may leverage geometric relationships and resonance patterns to encode and transform information efficiently.
+
+\subsection{IV. Computational Implementation}
+\begin{itemize}
+    \item A. Numerical Methods for Crystalline Field Simulation
+    \item B. Optimization of Octahedral Activation Functions
+    \item C. Hardware Acceleration and Metal Implementation
+    \item D. Benchmarks and Performance Analysis
+\end{itemize}
+
+\section{IV. Computational Implementation}
+
+\vspace{2mm}
+\subsection{A. Numerical Methods for Crystalline Field Simulation}
+
+Implementing the crystalline field equations computationally presents unique challenges due to their geometric structure and non-linear dynamics. We have developed specialized numerical methods that preserve the geometric properties of the field during simulation.
+
+\vspace{2mm}
+\subsection{B. Optimization of Octahedral Activation Functions}
+
+\vspace{2mm}
+\subsection{C. Hardware Acceleration and Metal Implementation}
+
+To achieve efficient computation of the resonant field dynamics, we implemented the core geometric operations using Metal shaders on Apple Silicon hardware, enabling significant performance improvements.
+
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}[b]{0.32\textwidth}
+        \includegraphics[width=\textwidth]{figures/geometric_transformation_0.pdf}
+        \caption{Initial geometry}
+        \label{fig:computation_a}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.32\textwidth}
+        \includegraphics[width=\textwidth]{figures/geometric_transformation_10.pdf}
+        \caption{Intermediate Transformation}
+        \label{fig:computation_b}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.32\textwidth}
+        \includegraphics[width=\textwidth]{figures/geometric_transformation_19.pdf}
+        \caption{Final geometry}
+        \label{fig:computation_c}
+    \end{subfigure}
+    \caption{Visualization of geometric transformations implemented in the Metal-accelerated computational framework. The sequence shows how the system preserves symmetries while performing field evolution calculations. These key stages demonstrate the transformation of input patterns through tetrahedral, cubic, and dodecahedral operations, showing how geometric information is preserved throughout the computational process.}
+    \label{fig:computation}
+\end{figure}
+
+Figure~\ref{fig:computation} demonstrates the geometric 
+transformations implemented in our Metal-accelerated computational framework. 
+The visualization shows how input patterns are transformed 
+through different geometric operations while preserving key symmetry properties, 
+enabling efficient computation of complex resonance patterns.
+
+\vspace{2mm}
+\subsection{D. Benchmarks and Performance Analysis}
+
+\section{V. Philosophical Implications}
+
+\vspace{2mm}
+\subsection{A. Relationship to Existing Theories of Consciousness}
+
+Resonant Field Theory shares conceptual similarities with several existing theories of consciousness, while introducing unique geometric aspects:
+
+\begin{itemize}
+    \item Like Integrated Information Theory \cite{tononi2016integrated}, RFT emphasizes the importance of information integration, but through geometric resonance rather than causal structure
+    \item Similar to Orchestrated Objective Reduction \cite{hameroff2014consciousness}, RFT suggests quantum-like dynamics may be relevant to consciousness, but focuses on geometric patterns rather than quantum collapse
+    \item While Global Workspace Theory \cite{dehaene2014consciousness} emphasizes broadcast of information, RFT highlights how geometric coherence enables integration across the system
+\end{itemize}
+
+\vspace{2mm}
+\subsection{B. Limitations and Boundary Conditions}
+
+We acknowledge several limitations of the current formulation:
+
+\begin{itemize}
+    \item The exact mapping between mathematical structures and biological processes remains speculative
+    \item The computational requirements for full-scale simulation are substantial
+    \item The theory does not yet address the "hard problem" of subjective experience directly
+\end{itemize}
+
+\vspace{2mm}
+\subsection{C. Testable Predictions and Falsifiability}
+
+RFT makes several testable predictions that could be investigated experimentally:
+
+\begin{itemize}
+    \item Neural recordings should show evidence of geometric patterns aligned with Platonic symmetries
+    \item Information processing capacity should peak at critical points in the phase space
+    \item Perturbations to coherent fields should propagate according to the predicted evolution equations
+\end{itemize}
+
+\vspace{2mm}
+\subsection{D. Ethical Considerations in Consciousness Research}
+
+Research on consciousness models raises important ethical considerations:
+
+\begin{itemize}
+    \item The potential for misinterpretation or overextension of mathematical models to consciousness
+    \item Questions about the ethical status of systems demonstrating resonant field patterns
+    \item The importance of interdisciplinary collaboration in consciousness studies to prevent reductionism
+\end{itemize}
+
+\section{VI. Future Directions}
+
+\vspace{2mm}
+\subsection{A. Experimental Tests and Validation Methods}
+
+Future work will focus on experimental validation of the theoretical predictions made by RFT:
+
+\begin{itemize}
+    \item High-resolution neural recording studies to detect geometric patterns in brain activity
+    \item Development of specialized analysis techniques to identify resonance phenomena in complex systems
+    \item Computational simulations to explore parameter spaces and identify critical transitions
+\end{itemize}
+
+\vspace{2mm}
+\subsection{B. Applications in Artificial Intelligence}
+
+The principles of resonant field theory suggest new approaches to artificial intelligence:
+
+\begin{itemize}
+    \item Geometric activation functions based on Platonic solid transformations
+    \item Resonance-based learning algorithms that leverage phase relationships
+    \item Holographic memory structures for efficient information storage and retrieval
+\end{itemize}
+
+\vspace{2mm}
+\subsection{C. Extensions to Social and Ecological Systems}
+
+The mathematical framework of RFT may have applications beyond individual consciousness:
+
+\begin{itemize}
+    \item Modeling social dynamics as resonant fields with geometric constraints
+    \item Exploring ecological relationships through the lens of phase coherence and resonance
+    \item Investigating information flow in complex adaptive systems using field equations
+\end{itemize}
+
+\vspace{2mm}
+\subsection{D. Towards a Research Program for Resonant Field Theory}
+
+We propose a comprehensive research program that integrates theoretical development, computational modeling, and experimental validation:
+
+\begin{enumerate}
+    \item Refinement of mathematical formalism and exploration of parameter spaces
+    \item Development of computational tools for simulating resonant fields at scale
+    \item Collaboration with neuroscientists to test predictions in biological systems
+    \item Investigation of potential technological applications in computing and AI
+\end{enumerate}
+
+\section{Conclusion}
+
+Resonant Field Theory offers a novel mathematical framework for exploring connections between geometric principles, resonance phenomena, and information processing across physical and cognitive domains. By emphasizing the role of geometric constraints and resonance patterns, RFT provides a fresh perspective on how complex systems might organize and process information.
+
+The visualizations presented throughout this paper—from geometric basis patterns (Figure~\ref{fig:geometric_basis}) to neural coherence structures (Figure~\ref{fig:neural})—demonstrate how our mathematical framework can generate patterns that resemble both quantum phenomena and neural dynamics. The field evolution sequences (Figure~\ref{fig:field_evolution}) and geometric transformations (Figure~\ref{fig:computation}) provide a practical foundation for further exploration and testing of these concepts, showing key stages in the dynamics of resonant fields.
+
+While RFT remains speculative in many aspects, it offers several advantages as a theoretical framework:
+
+\begin{itemize}
+    \item It provides a unified mathematical language for describing patterns across different domains
+    \item It makes testable predictions about geometric structures in both physical and neural systems
+    \item It suggests novel computational approaches based on resonance and geometric transformations
+    \item It offers new perspectives on long\-standing questions in consciousness studies and physics
+\end{itemize}
+
+We emphasize that RFT does not claim to solve fundamental questions about the nature of consciousness or the foundations of physical reality. Rather, it provides a structured way of thinking about resonance patterns and geometric structures that may play important roles in both domains. By continuing to refine this theoretical framework and testing its predictions, we hope to contribute to our understanding of the rich connections between mathematics, physics, and cognition.
+
+As we develop more sophisticated computational tools and experimental techniques, the principles of resonant field theory may find applications in diverse areas, from artificial intelligence to complex systems analysis. The ultimate test of the theory will be its ability to generate novel insights and practical applications while remaining grounded in empirical evidence and mathematical rigor.
+
+% TODO: For better bibliography management, consider using BibTeX:
+% 1. Create a references.bib file
+% 2. Replace this manual bibliography with:
+%    \bibliographystyle{plain}
+%    \bibliography{references}
+% 3. Compile with: pdflatex → bibtex → pdflatex → pdflatex
+% 
+% References section below:
+\nocite{*}
+\begin{thebibliography}{9}
+\bibitem{wheeler1990information} Wheeler, J. A. (1990). Information, physics, quantum: The search for links. In W. H. Zurek (Ed.), \textit{Complexity, Entropy, and the Physics of Information}. Redwood City, CA: Addison-Wesley.
+
+\bibitem{hameroff2014consciousness} Hameroff, S., Penrose, R. (2014). Consciousness in the universe: A review of the 'Orch OR' theory. \textit{Physics of Life Reviews}, 11(1), 39-78.
+
+\bibitem{chalmers1995facing} Chalmers, D. J. (1995). Facing up to the problem of consciousness. \textit{Journal of Consciousness Studies}, 2(3), 200-219.
+
+\bibitem{penrose1989emperor} Penrose, R. (1989). \textit{The Emperor's New Mind: Concerning Computers, Minds, and the Laws of Physics}. Oxford University Press.
+
+\bibitem{bohm1980wholeness} Bohm, D. (1980). \textit{Wholeness and the Implicate Order}. Routledge.
+
+\bibitem{dehaene2014consciousness} Dehaene, S. (2014). \textit{Consciousness and the Brain: Deciphering How the Brain Codes Our Thoughts}. Viking.
+
+\bibitem{tononi2016integrated} Tononi, G., Boly, M., Massimini, M., Koch, C. (2016). Integrated information theory: From consciousness to its physical substrate. \textit{Nature Reviews Neuroscience}, 17(7), 450-461.
+
+\bibitem{varela1991embodied} Varela, F. J., Thompson, E., \& Rosch, E. (1991). \textit{The Embodied Mind: Cognitive Science and Human Experience}. MIT Press.
+
+
+\bibitem{pribram1991brain} Pribram, K. H. (1991). \textit{Brain and Perception: Holonomy and Structure in Figural Processing}. Lawrence Erlbaum Associates.
+
+\bibitem{tegmark2015consciousness} Tegmark, M. (2015). Consciousness as a state of matter. \textit{Chaos, Solitons & Fractals}, 76, 238-270.
+
+\bibitem{whitehead1978process} Whitehead, A. N. (1978). \textit{Process and Reality: An Essay in Cosmology}. The Free Press. (Original work published 1929)
+
+\bibitem{sheldrake2012science} Sheldrake, R. (2012). \textit{The Science Delusion: Freeing the Spirit of Enquiry}. Coronet.
+
+\bibitem{kauffman2019world} Kauffman, S. A. (2019). \textit{A World Beyond Physics: The Emergence and Evolution of Life}. Oxford University Press.
+\end{thebibliography}
+
+
+\end{document}
+

@@ -1,0 +1,46 @@
+This is BibTeX, Version 0.99d (TeX Live 2025)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: resonant_field_theory_paper.aux
+The style file: plain.bst
+Database file #1: references.bib
+You've used 7 entries,
+            2118 wiz_defined-function locations,
+            540 strings with 5045 characters,
+and the built_in function-call counts, 1951 in all, are:
+= -- 187
+> -- 75
+< -- 0
++ -- 30
+- -- 23
+* -- 121
+:= -- 343
+add.period$ -- 22
+call.type$ -- 7
+change.case$ -- 29
+chr.to.int$ -- 0
+cite$ -- 7
+duplicate$ -- 84
+empty$ -- 175
+format.name$ -- 23
+if$ -- 403
+int.to.chr$ -- 0
+int.to.str$ -- 7
+missing$ -- 10
+newline$ -- 38
+num.names$ -- 16
+pop$ -- 41
+preamble$ -- 1
+purify$ -- 25
+quote$ -- 0
+skip$ -- 45
+stack$ -- 0
+substring$ -- 104
+swap$ -- 7
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 22
+warning$ -- 0
+while$ -- 21
+width$ -- 8
+write$ -- 77
