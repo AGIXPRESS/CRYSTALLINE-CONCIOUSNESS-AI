@@ -1,0 +1,28 @@
+{
+  "vocabulary": {
+    "('coherent', 'coherent', 'coherent', 'coherent', 'coherent')": {
+      "frequency": 2800,
+      "pattern_length": 5,
+      "uniqueness_score": 1.0,
+      "states_involved": [
+        "coherent"
+      ]
+    }
+  },
+  "grammar_rules": {},
+  "semantic_patterns": {
+    "coherent": {
+      "average_stability_duration": 60.0,
+      "max_stability_duration": 60,
+      "stability_frequency": 50,
+      "stability_variance": 0.0,
+      "semantic_interpretation": "Organized consciousness flow, 60.0 unit coherence"
+    }
+  },
+  "pattern_statistics": {
+    "total_sequences": 2800,
+    "unique_sequences": 1,
+    "total_transitions": 0,
+    "stability_events": 50
+  }
+}

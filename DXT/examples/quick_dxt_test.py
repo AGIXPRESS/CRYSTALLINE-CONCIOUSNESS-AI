@@ -22,15 +22,13 @@ def quick_consciousness_analysis(consciousness_field, phi=1.618033988749894):
     """Quick consciousness analysis for demo purposes."""
     field_1d = mx.flatten(consciousness_field)
     
-    # Basic coherence
-    if len(consciousness_field.shape) == 2:
-        coherence = float(mx.mean(mx.abs(mx.corrcoef(consciousness_field))))
-    else:
-        autocorr = mx.correlate(field_1d, field_1d, mode='full')
-        coherence = float(autocorr[len(autocorr)//2] / mx.sum(mx.abs(autocorr)))
+    # Basic coherence (using correlation approximation)
+    field_mean = mx.mean(field_1d)
+    centered = field_1d - field_mean
+    coherence = float(mx.mean(mx.abs(centered)) / (mx.std(field_1d) + 1e-8))
     
     # Basic entropy
-    data_norm = mx.abs(field_1d) / mx.sum(mx.abs(field_1d))
+    data_norm = mx.abs(field_1d) / (mx.sum(mx.abs(field_1d)) + 1e-10)
     entropy = float(-mx.sum(data_norm * mx.log(data_norm + 1e-10)))
     
     # Phi alignment

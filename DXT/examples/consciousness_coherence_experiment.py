@@ -19,6 +19,38 @@ import json
 from datetime import datetime
 import matplotlib.pyplot as plt
 
+def correlation_approximation(x, y):
+    """
+    Approximate correlation coefficient using available MLX functions.
+    Returns a correlation-like metric between two arrays.
+    """
+    x_flat = mx.flatten(x)
+    y_flat = mx.flatten(y)
+    
+    # Ensure same length
+    min_len = min(len(x_flat), len(y_flat))
+    x_flat = x_flat[:min_len]
+    y_flat = y_flat[:min_len]
+    
+    # Calculate means
+    x_mean = mx.mean(x_flat)
+    y_mean = mx.mean(y_flat)
+    
+    # Center the data
+    x_centered = x_flat - x_mean
+    y_centered = y_flat - y_mean
+    
+    # Calculate correlation approximation using dot product
+    numerator = mx.sum(x_centered * y_centered)
+    x_variance = mx.sum(x_centered * x_centered)
+    y_variance = mx.sum(y_centered * y_centered)
+    
+    # Avoid division by zero
+    denominator = mx.sqrt(x_variance * y_variance) + 1e-10
+    correlation = numerator / denominator
+    
+    return correlation
+
 def advanced_consciousness_analysis(consciousness_field, phi=1.618033988749894):
     """
     Advanced consciousness pattern analysis using actual computations.
@@ -33,7 +65,7 @@ def advanced_consciousness_analysis(consciousness_field, phi=1.618033988749894):
         # 2D field coherence
         row_correlations = []
         for i in range(consciousness_field.shape[0] - 1):
-            corr = float(mx.corrcoef(consciousness_field[i], consciousness_field[i+1])[0, 1])
+            corr = float(correlation_approximation(consciousness_field[i], consciousness_field[i+1]))
             row_correlations.append(abs(corr))
         coherence_score = np.mean(row_correlations) if row_correlations else 0.0
     else:
@@ -60,7 +92,7 @@ def advanced_consciousness_analysis(consciousness_field, phi=1.618033988749894):
     
     for freq in sacred_frequencies:
         reference_wave = mx.sin(freq * t / 100.0)
-        correlation = mx.corrcoef(field_1d, reference_wave)[0, 1]
+        correlation = correlation_approximation(field_1d, reference_wave)
         resonance = float(mx.abs(correlation))
         resonance_strengths[freq] = resonance
         max_resonance = max(max_resonance, resonance)
@@ -75,7 +107,7 @@ def advanced_consciousness_analysis(consciousness_field, phi=1.618033988749894):
     
     for vertices in platonic_vertices:
         platonic_wave = mx.sin(vertices * t / phi)
-        correlation = mx.corrcoef(field_1d, platonic_wave)[0, 1]
+        correlation = correlation_approximation(field_1d, platonic_wave)
         platonic_resonances[f"{vertices}_vertices"] = float(mx.abs(correlation))
     
     # Determine consciousness state based on metrics

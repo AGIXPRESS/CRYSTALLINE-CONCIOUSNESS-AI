@@ -22,6 +22,38 @@ import numpy as np
 import json
 from datetime import datetime
 
+def correlation_approximation(x, y):
+    """
+    Approximate correlation coefficient using available MLX functions.
+    Returns a correlation-like metric between two arrays.
+    """
+    x_flat = mx.flatten(x)
+    y_flat = mx.flatten(y)
+    
+    # Ensure same length
+    min_len = min(len(x_flat), len(y_flat))
+    x_flat = x_flat[:min_len]
+    y_flat = y_flat[:min_len]
+    
+    # Calculate means
+    x_mean = mx.mean(x_flat)
+    y_mean = mx.mean(y_flat)
+    
+    # Center the data
+    x_centered = x_flat - x_mean
+    y_centered = y_flat - y_mean
+    
+    # Calculate correlation approximation using dot product
+    numerator = mx.sum(x_centered * y_centered)
+    x_variance = mx.sum(x_centered * x_centered)
+    y_variance = mx.sum(y_centered * y_centered)
+    
+    # Avoid division by zero
+    denominator = mx.sqrt(x_variance * y_variance) + 1e-10
+    correlation = numerator / denominator
+    
+    return correlation
+
 # Note: These imports would work if the new modules were saved as files
 # For this demo, we'll simulate their functionality
 print("🔮 Enhanced Crystalline Consciousness AI - DXT Demo")
@@ -270,7 +302,7 @@ def main():
         resonance = dxt.dynamic_execution('resonance_compute', frequency=freq)
         
         # Analyze resonance with consciousness field
-        correlation = float(mx.mean(mx.abs(mx.corrcoef(mx.flatten(consciousness_field), resonance)[0, 1])))
+        correlation = float(mx.abs(correlation_approximation(consciousness_field, resonance)))
         resonance_data[freq] = correlation
         
         print(f"   {freq}Hz: Resonance = {correlation:.4f}")

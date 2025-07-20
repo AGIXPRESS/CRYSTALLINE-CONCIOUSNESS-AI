@@ -1,8 +1,7 @@
-[webhook] 2025/07/19 23:38:10 version 2.8.2 starting
-[webhook] 2025/07/19 23:38:10 setting up os signal watcher
-[webhook] 2025/07/19 23:38:10 attempting to load hooks from hooks.json
-[webhook] 2025/07/19 23:38:10 os signal watcher ready
-[webhook] 2025/07/19 23:38:10 found 1 hook(s) in file
-[webhook] 2025/07/19 23:38:10 	loaded: crystalline-consciousness-auto-update
-[webhook] 2025/07/19 23:38:10 serving hooks on http://0.0.0.0:9000/hooks/{id}
-[webhook] 2025/07/20 00:15:09 caught terminated signal; exiting
+[webhook] 2025/07/20 00:19:16 version 2.8.2 starting
+[webhook] 2025/07/20 00:19:16 setting up os signal watcher
+[webhook] 2025/07/20 00:19:16 attempting to load hooks from hooks.json
+[webhook] 2025/07/20 00:19:16 found 1 hook(s) in file
+[webhook] 2025/07/20 00:19:16 	loaded: crystalline-consciousness-auto-update
+[webhook] 2025/07/20 00:19:16 serving hooks on http://0.0.0.0:9000/hooks/{id}
+[webhook] 2025/07/20 00:19:16 os signal watcher ready
