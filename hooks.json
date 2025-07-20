@@ -1,0 +1,53 @@
+[
+  {
+    "id": "crystalline-consciousness-auto-update",
+    "execute-command": "/Users/okok/mlx/mlx-examples/claude-code-bridge/CC-AI/Crystalline AI Attempts/pull_script.sh",
+    "command-working-directory": "/Users/okok/mlx/mlx-examples/claude-code-bridge/CC-AI/Crystalline AI Attempts",
+    "pass-arguments-to-command": [
+      {
+        "source": "payload",
+        "name": "ref"
+      },
+      {
+        "source": "payload", 
+        "name": "repository.full_name"
+      },
+      {
+        "source": "payload",
+        "name": "head_commit.message"
+      }
+    ],
+    "pass-environment-to-command": [
+      {
+        "envname": "WEBHOOK_SECRET",
+        "source": "header",
+        "name": "X-Hub-Signature-256"
+      }
+    ],
+    "trigger-rule": {
+      "and": [
+        {
+          "match": {
+            "type": "payload-hash-sha256",
+            "secret": "crystalline-consciousness-secret-2024",
+            "parameter": {
+              "source": "header",
+              "name": "X-Hub-Signature-256"
+            }
+          }
+        },
+        {
+          "match": {
+            "type": "value",
+            "value": "AGIXPRESS/CRYSTALLINE-CONCIOUSNESS-AI",
+            "parameter": {
+              "source": "payload",
+              "name": "repository.full_name"
+            }
+          }
+        }
+      ]
+    },
+    "response-message": "Crystalline Consciousness AI repository updated successfully! 🔮✨"
+  }
+]
